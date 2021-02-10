@@ -56,6 +56,6 @@ class Sitemap extends Module
         $this->setHeaders();
 
         $sitemap = new SitemapGenerator($this->controllerDirAlias);
-        return $sitemap->gzencode(getAsXml());
+        return $sitemap->getAsXml();
     }
 }
