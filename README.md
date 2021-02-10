@@ -5,12 +5,12 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 ```
-php composer.phar require --prefer-dist "enchikiben/yii2-sitemap" "*"
+php composer.phar require --prefer-dist "ostendisorg/yii2-sitemap" "*"
 ```
 or
 
 ```json
-"enchikiben/yii2-sitemap" : "*"
+"ostendisorg/yii2-sitemap" : "*"
 ```
 
 Configure
@@ -19,7 +19,7 @@ Configure
 ```php
 'modules' => [
     'sitemap' => [
-        'class' => 'enchikiben\sitemap\Sitemap',
+        'class' => 'ostendisorg\sitemap\Sitemap',
         'controllerDirAlias' => '@frontend/controllers'
     ],
 ],

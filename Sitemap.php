@@ -1,6 +1,6 @@
 <?php
 
-namespace enchikiben\sitemap;
+namespace ostendisorg\sitemap;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -10,12 +10,12 @@ use yii\caching\Cache;
 /**
  * Yii2 module for automatically generating XML Sitemap.
  *
- * @author enchikiben
- * @package enchikiben\sitemap
+ * @author ostendisorg
+ * @package ostendisorg\sitemap
  */
 class Sitemap extends Module
 {
-    public $controllerNamespace = 'enchikiben\sitemap\controllers';
+    public $controllerNamespace = 'ostendisorg\sitemap\controllers';
     /** @var int */
     public $cacheExpire = 86400;
     /** @var Cache|string */
@@ -56,6 +56,6 @@ class Sitemap extends Module
         $this->setHeaders();
 
         $sitemap = new SitemapGenerator($this->controllerDirAlias);
-        return $sitemap->getAsXml();
+        return $sitemap->gzencode(getAsXml());
     }
 }

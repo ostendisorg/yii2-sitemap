@@ -1,5 +1,5 @@
 <?php
-namespace enchikiben\sitemap;
+namespace ostendisorg\sitemap;
 
 use Yii;
 use yii\base\Exception;

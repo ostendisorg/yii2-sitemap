@@ -1,6 +1,6 @@
 <?php
 
-namespace enchikiben\sitemap\controllers;
+namespace ostendisorg\sitemap\controllers;
 
 use Yii;
 

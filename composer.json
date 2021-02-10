@@ -1,14 +1,14 @@
 {
-  "name": "enchikiben/yii2-sitemap",
+  "name": "ostendisorg/yii2-sitemap",
   "description": "Yii2 generation Sitemap XML",
   "keywords": ["yii2", "xml", "sitemap", "module"],
   "type": "yii2-extension",
   "license": "MIT",
-  "support": {
-    "source": "https://github.com/enchikiben/yii2-sitemap",
-    "issues": "https://github.com/enchikiben/yii2-sitemap/issues"
-  },
   "authors": [
+    {
+      "name": "Ostendis AG",
+      "email": "github@ostendis.com"
+    },
     {
       "name": "enchikiben",
       "homepage" : "https://github.com/enchikiben"
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "enchikiben\\sitemap\\": ""
+      "ostendisorg\\sitemap\\": ""
     }
   }
 }
